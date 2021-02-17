@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "adonis"
+version = "0.1.0"
+description = "GNOME wallpaper slideshow generator."
+authors = ["Szczepan Smoczek <szczepan.smoczek@protonmail.ch>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/TheCore/adonis"
+repository = "https://github.com/TheCore/adonis"
+keywords = ["gnome", "wallpaper", "slideshow", "desktop"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
