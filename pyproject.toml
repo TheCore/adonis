@@ -11,12 +11,18 @@ keywords = ["gnome", "wallpaper", "slideshow", "desktop"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+yapf = "^0.30.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
 pytest-mock = "^3.5.1"
 coverage = {extras = ["toml"], version = "^5.4"}
 pytest-cov = "^2.11.1"
+flake8 = "^3.8.4"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^20.11.1"
+flake8-bandit = "^2.1.2"
+yapf = "^0.30.0"
 
 [tool.coverage.paths]
 source = ["adonis", "*/site-packages"]
